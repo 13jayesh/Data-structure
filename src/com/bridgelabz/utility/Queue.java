@@ -1,9 +1,23 @@
+
+/******************************************************************************
+*  Compilation:  javac -d bin threenames.java
+*  Execution:    java -cp bin com.threenames.util.PrimeChecker n
+*  
+*  Purpose: program to findout the prime number using queue
+*
+*  @author  jayesh patil
+*  @version 1.0
+*  @since   11-08-2017
+*
+******************************************************************************/
 package com.bridgelabz.utility;
 
 	import java.util.ArrayList;
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Scanner;
+
+import com.bridgelabz.util.SinglyLinkedListImpl;
 
 	public class Queue
 	{	static String stree="";

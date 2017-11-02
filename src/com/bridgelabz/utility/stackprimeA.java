@@ -1,5 +1,18 @@
+
+/******************************************************************************
+*  Compilation:  javac -d bin threenames.java
+*  Execution:    java -cp bin com.threenames.util.PrimeChecker n
+*  
+*  Purpose: program to findout the prime number using stack
+*
+*  @author  jayesh patil
+*  @version 1.0
+*  @since   11-08-2017
+*
+******************************************************************************/
 package com.bridgelabz.utility;
 
+import com.bridgelabz.util.SinglyLinkedListImpl;
 import com.sun.xml.internal.bind.v2.model.core.Ref;
 
 public class stackprimeA 

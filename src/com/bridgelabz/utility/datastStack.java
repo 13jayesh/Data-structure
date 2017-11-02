@@ -1,5 +1,20 @@
+
+/******************************************************************************
+*  Compilation:  javac -d bin threenames.java
+*  Execution:    java -cp bin com.threenames.util.PrimeChecker n
+*  
+*  Purpose: program to cheack the Balanced equaction.
+*
+*  @author  jayesh patil
+*  @version 1.0
+*  @since   11-08-2017
+*
+******************************************************************************/
 package com.bridgelabz.utility;
 import java.util.Scanner;
+
+import com.bridgelabz.util.SinglyLinkedListImpl;
+import com.bridgelabz.util.utility;
 
 public class datastStack 
 {
@@ -15,44 +30,7 @@ public class datastStack
 	    }
 	
 //	  
-	    public static void pushpop(char Array[])
-	    {
-	    	int k=0,j=0,i;
-	    	for( i = 0;i<Array.length;i++)
-		{
-		
-			if(Array[i]=='(')
-			{
-				k++;
-	//push
-		obj.add(Array[i]);
-		obj.view();
-		}
-			else if(Array[i]==')')
-			{
-	//pop
-		obj.deleteElement(Array[i]);
-				j++;
-			
-		System.out.println(Array[i]);
-			}
-		}	
-		if(k==j)
-		{
-			System.out.println("Empty Array Arithmetic Expression is Balanced.");
-		}
-		else
-		{
-			System.out.println(" Parentheses is not balance");
-			
-		}
-	
-	    
-	    }
-
-	    
 	   
-	    
 
 	public static void main(String[] args) 
 	{	
@@ -62,7 +40,7 @@ public class datastStack
 		System.out.println("enter the equaction");
 		String str=sc.next();
 		char []Array=str.toCharArray();
-		pushpop(Array);
+		utility.pushpop(Array);
 		
 	
 	}
